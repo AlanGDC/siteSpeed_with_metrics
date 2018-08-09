@@ -9,7 +9,7 @@ before_script:
 - sleep 3
 
 script:
-- docker run --privileged --net="host" -v "$(pwd)":/sitespeed.io sitespeedio/sitespeed.io --budget /sitespeed.io/budget.json http://127.0.0.1:8009/web/
+- docker run --shm-size=1g --rm -v "$(pwd)":/sitespeed.io sitespeedio/sitespeed.io:7.3.6 -b chrome https://iunigo.com.ar/ http://www.lacaja.com.ar/seguros-personas
 
 after_script:
 - kill `ps aux | grep "python -m SimpleHTTPServer" | grep -v grep | awk '{print $2}'`
