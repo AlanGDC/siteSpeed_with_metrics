@@ -7,9 +7,11 @@ services:
 before_script:
 - python -m SimpleHTTPServer 8009 &
 - sleep 3
+- docker pull allskyee/google-drive-ocamlfuse
 
 script:
 - docker run --shm-size=1g --rm -v "$(pwd)":/sitespeed.io sitespeedio/sitespeed.io:7.3.6 -b chrome https://iunigo.com.ar/ http://www.lacaja.com.ar/seguros-personas https://www.gruposancorseguros.com/
+- docker run -d \--name google-drive \--user abc:abc \--security-opt apparmor:unconfined \--cap-add mknod \--cap-add sys_admin \--device=/dev/fuse \-v /path/to/host/google-drive:/mnt/google-drive:shared \google-drive
 
 after_script:
 - kill `ps aux | grep "python -m SimpleHTTPServer" | grep -v grep | awk '{print $2}'`
