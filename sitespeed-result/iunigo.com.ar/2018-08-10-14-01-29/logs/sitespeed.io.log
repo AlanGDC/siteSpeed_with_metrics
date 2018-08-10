@@ -1,0 +1,36 @@
+[2018-08-10 14:01:29] INFO: [sitespeedio] Versions OS: linux 4.9.87-linuxkit-aufs nodejs: v8.11.1 sitespeed.io: 7.3.6 browsertime: 3.3.1 coach: 2.0.6
+[2018-08-10 14:01:30] INFO: [sitespeedio.plugin.browsertime] Starting chrome for analysing https://iunigo.com.ar/ 3 time(s)
+[2018-08-10 14:01:30] INFO: [browsertime] Testing url https://iunigo.com.ar/ iteration 1
+[2018-08-10 14:01:51] INFO: [browsertime] BackEndTime: 631 DomInteractiveTime: 2383 DomContentLoadedTime: 2383 FirstPaint: 1513 PageLoadTime: 4453
+[2018-08-10 14:01:51] INFO: [browsertime] VisualMetrics FirstVisualChange: 2434 SpeedIndex: 3631 PerceptualSpeedIndex: 4705 LastVisualChange: 6534
+[2018-08-10 14:01:52] INFO: [browsertime] Testing url https://iunigo.com.ar/ iteration 2
+[2018-08-10 14:02:13] INFO: [browsertime] BackEndTime: 534 DomInteractiveTime: 2111 DomContentLoadedTime: 2112 FirstPaint: 2132 PageLoadTime: 6644
+[2018-08-10 14:02:13] INFO: [browsertime] VisualMetrics FirstVisualChange: 2133 SpeedIndex: 3709 PerceptualSpeedIndex: 4769 LastVisualChange: 6767
+[2018-08-10 14:02:14] INFO: [browsertime] Testing url https://iunigo.com.ar/ iteration 3
+[2018-08-10 14:02:31] INFO: [browsertime] BackEndTime: 574 DomInteractiveTime: 2142 DomContentLoadedTime: 2142 FirstPaint: 1272 PageLoadTime: 4172
+[2018-08-10 14:02:31] INFO: [browsertime] VisualMetrics FirstVisualChange: 2167 SpeedIndex: 3587 PerceptualSpeedIndex: 4444 LastVisualChange: 6200
+[2018-08-10 14:02:31] INFO: [browsertime] 77 requests, 11456.05 kb, backEndTime: 580ms (±22.98ms), firstPaint: 1.64s (±209.13ms), firstVisualChange: 2.25s (±77.71ms), DOMContentLoaded: 2.21s (±70.03ms), Load: 5.09s (±638.00ms), speedIndex: 3642 (±29.13), visualComplete85: 6.09s (±72.67ms), lastVisualChange: 6.50s (±134.35ms), rumSpeedIndex: 2671 (±220.73) (3 runs)
+[2018-08-10 14:02:31] INFO: [sitespeedio.plugin.browsertime] Starting chrome for analysing http://www.lacaja.com.ar/seguros-personas 3 time(s)
+[2018-08-10 14:02:31] INFO: [browsertime] Testing url http://www.lacaja.com.ar/seguros-personas iteration 1
+[2018-08-10 14:02:42] INFO: [browsertime] BackEndTime: 211 DomInteractiveTime: 1394 DomContentLoadedTime: 1394 FirstPaint: 1361 PageLoadTime: 2437
+[2018-08-10 14:02:42] INFO: [browsertime] VisualMetrics FirstVisualChange: 1400 SpeedIndex: 1501 PerceptualSpeedIndex: 1454 LastVisualChange: 1566
+[2018-08-10 14:02:42] INFO: [browsertime] Testing url http://www.lacaja.com.ar/seguros-personas iteration 2
+[2018-08-10 14:02:54] INFO: [browsertime] BackEndTime: 1037 DomInteractiveTime: 1834 DomContentLoadedTime: 1834 FirstPaint: 1817 PageLoadTime: 2557
+[2018-08-10 14:02:54] INFO: [browsertime] VisualMetrics FirstVisualChange: 1800 SpeedIndex: 1980 PerceptualSpeedIndex: 1890 LastVisualChange: 2000
+[2018-08-10 14:02:54] INFO: [browsertime] Testing url http://www.lacaja.com.ar/seguros-personas iteration 3
+[2018-08-10 14:03:04] INFO: [browsertime] BackEndTime: 196 DomInteractiveTime: 794 DomContentLoadedTime: 795 FirstPaint: 777 PageLoadTime: 1858
+[2018-08-10 14:03:04] INFO: [browsertime] VisualMetrics FirstVisualChange: 800 SpeedIndex: 972 PerceptualSpeedIndex: 924 LastVisualChange: 1867
+[2018-08-10 14:03:04] INFO: [browsertime] 83 requests, 1943.90 kb, backEndTime: 481ms (±226.88ms), firstPaint: 1.32s (±245.75ms), firstVisualChange: 1.33s (±237.27ms), DOMContentLoaded: 1.34s (±245.85ms), Load: 2.28s (±176.20ms), speedIndex: 1484 (±237.69), visualComplete85: 1.50s (±243.85ms), lastVisualChange: 1.81s (±104.82ms), rumSpeedIndex: 1361 (±262.10) (3 runs)
+[2018-08-10 14:03:04] INFO: [sitespeedio.plugin.browsertime] Starting chrome for analysing https://www.gruposancorseguros.com/ 3 time(s)
+[2018-08-10 14:03:04] INFO: [browsertime] Testing url https://www.gruposancorseguros.com/ iteration 1
+[2018-08-10 14:03:17] INFO: [browsertime] BackEndTime: 2055 DomInteractiveTime: 2580 DomContentLoadedTime: 2580 FirstPaint: 2527 PageLoadTime: 3372
+[2018-08-10 14:03:17] INFO: [browsertime] VisualMetrics FirstVisualChange: 2600 SpeedIndex: 2739 PerceptualSpeedIndex: 2728 LastVisualChange: 3266
+[2018-08-10 14:03:17] INFO: [browsertime] Testing url https://www.gruposancorseguros.com/ iteration 2
+[2018-08-10 14:03:31] INFO: [browsertime] BackEndTime: 2139 DomInteractiveTime: 3059 DomContentLoadedTime: 3059 FirstPaint: 3009 PageLoadTime: 4061
+[2018-08-10 14:03:31] INFO: [browsertime] VisualMetrics FirstVisualChange: 3200 SpeedIndex: 3314 PerceptualSpeedIndex: 3347 LastVisualChange: 4000
+[2018-08-10 14:03:32] INFO: [browsertime] Testing url https://www.gruposancorseguros.com/ iteration 3
+[2018-08-10 14:03:47] INFO: [browsertime] BackEndTime: 1886 DomInteractiveTime: 3078 DomContentLoadedTime: 3078 FirstPaint: 3005 PageLoadTime: 4946
+[2018-08-10 14:03:47] INFO: [browsertime] VisualMetrics FirstVisualChange: 3066 SpeedIndex: 3396 PerceptualSpeedIndex: 3428 LastVisualChange: 5000
+[2018-08-10 14:03:47] INFO: [browsertime] 127 requests, 2962.48 kb, backEndTime: 2.03s (±60.74ms), firstPaint: 2.85s (±130.64ms), firstVisualChange: 2.96s (±148.46ms), DOMContentLoaded: 2.91s (±133.03ms), Load: 4.13s (±371.95ms), speedIndex: 3150 (±168.76), visualComplete85: 3.07s (±136.08ms), lastVisualChange: 4.09s (±410.31ms), rumSpeedIndex: 3316 (±194.37) (3 runs)
+[2018-08-10 14:03:49] INFO: [sitespeedio.plugin.html] HTML stored in /sitespeed.io/sitespeed-result/iunigo.com.ar/2018-08-10-14-01-29
+[2018-08-10 14:03:49] INFO: [sitespeedio] Finished analysing https://iunigo.com.ar/
